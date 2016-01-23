@@ -1,15 +1,17 @@
-﻿/*!
- * XMLファイルからメッセージを取得するクラス.
- * 
- * @file	XMLMessageRead.cs
- * @author	Lotos
- * @date	2015-11-01 14:19
- */
+﻿/************************************************
+XMLMessageRead.cs
+
+Copyright (c) 2015 LotosLabo
+
+This software is released under the MIT License.
+http://opensource.org/licenses/mit-license.php
+************************************************/
 
 using UnityEngine;
 using System.Collections;
 using System.Xml;
 
+/* XMLファイルからメッセージを取得するクラス. */
 public class XMLMessageRead : MonoBehaviour {
 
     /// <summary>
@@ -26,4 +28,6 @@ public class XMLMessageRead : MonoBehaviour {
         if (node.Count < 0) return null;
         return node.Item(0).InnerText;
     }
+
+    
 }
