@@ -1,13 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
 <!--
-表示用メッセージ.
-@file	Message.xml
-@author	Lotos
-@date	2015-11-01 14:14
+Message.xml
 
-<MESSAGE_DATA>以下に、タグを指定書く。
-重複はダメ。
+Copyright (c) 2015 Lotos
+
+This software is released under the MIT License.
+http://opensource.org/licenses/mit-license.php
 -->
 
 <MESSAGE_DATA>
